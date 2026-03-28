@@ -1,0 +1,270 @@
+2026-03-28 15:23:56,822 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 15:31:33,473 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 15:31:34,459 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 15:31:34,462 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 15:31:36,164 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 16:07:24,787 | ERROR | src.utils.web_scraper | URL file not found: c:\Akash\Career\tests\kpn\bronze\urls.txt
+2026-03-28 16:07:24,790 | INFO | src.utils.web_scraper | Successfully created 0 documents
+2026-03-28 16:08:00,380 | ERROR | src.utils.web_scraper | URL file not found: c:\Akash\Career\tests\kpn\bronze\urls.txt
+2026-03-28 16:08:00,388 | INFO | src.utils.web_scraper | Successfully created 0 documents
+2026-03-28 16:08:33,691 | ERROR | src.utils.web_scraper | URL file not found: c:\Akash\Career\tests\kpn\bronze\urls.txt
+2026-03-28 16:08:33,696 | INFO | src.utils.web_scraper | Successfully created 0 documents
+2026-03-28 16:08:49,092 | ERROR | src.utils.web_scraper | URL file not found: c:\Akash\Career\tests\kpn\bronze\urls.txt
+2026-03-28 16:08:49,097 | INFO | src.utils.web_scraper | Successfully created 0 documents
+2026-03-28 16:10:21,640 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 16:10:21,641 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 16:10:21,642 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 16:10:22,717 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 16:10:23,764 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 16:10:24,498 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 16:10:24,980 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 16:10:27,732 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 16:18:51,738 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 16:18:52,087 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 16:18:52,097 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 16:18:53,114 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 16:28:35,526 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 16:28:35,528 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 16:28:35,528 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 16:28:36,043 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 16:28:36,639 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 16:28:37,280 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 16:28:37,841 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 16:28:38,518 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 16:28:50,194 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 16:28:50,451 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 16:28:50,451 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 16:28:51,034 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 16:28:55,368 | INFO | app | Creating new vector store at data\gold\KPN-news-articles
+2026-03-28 16:28:56,255 | INFO | app | Vector store saved at data\gold\KPN-news-articles
+2026-03-28 16:43:46,010 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 16:43:46,011 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 16:44:35,940 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 16:44:35,941 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 16:44:59,790 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 16:44:59,791 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 16:45:24,850 | INFO | app | Creating new vector store at data\gold\KPN-integrated-annual-report-2024_2025.pdf
+2026-03-28 16:45:25,745 | INFO | app | Vector store saved at data\gold\KPN-integrated-annual-report-2024_2025.pdf
+2026-03-28 16:46:56,084 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 16:46:56,085 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 16:47:05,652 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 16:57:50,366 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 16:57:50,370 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 16:57:50,376 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 16:57:50,601 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 16:57:50,601 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 16:57:51,066 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 16:57:51,066 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 16:57:52,139 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 16:57:52,141 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 16:57:52,141 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 16:57:52,813 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 16:57:53,316 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 16:57:54,028 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 16:57:54,475 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 16:57:54,899 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 16:57:54,899 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 16:57:55,097 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 16:57:55,097 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 16:57:55,519 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 16:57:55,519 | INFO | app | Loading existing vector store from data\gold\KPN-news-articles
+2026-03-28 17:02:25,853 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 17:02:25,853 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 17:02:25,865 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:02:26,109 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:02:26,109 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:02:26,721 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:02:26,721 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 17:02:26,721 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 17:02:26,729 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 17:02:26,729 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 17:02:27,233 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 17:02:27,855 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 17:02:28,416 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 17:02:28,972 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 17:02:29,689 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 17:02:29,689 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:02:29,903 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:02:29,903 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:02:30,327 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:02:30,327 | INFO | app | Loading existing vector store from data\gold\KPN-news-articles
+2026-03-28 17:12:45,071 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 17:12:45,073 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 17:12:45,074 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 17:12:45,624 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 17:12:46,085 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 17:12:46,518 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 17:12:46,967 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 17:12:47,449 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 17:12:47,449 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:12:47,656 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:12:47,656 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:12:48,083 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:12:48,083 | INFO | app | Loading existing vector store from data\gold\KPN-news-articles
+2026-03-28 17:14:37,653 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 17:14:37,654 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 17:14:37,661 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:14:37,929 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:14:37,929 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:14:38,378 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:14:38,378 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 17:23:16,347 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:23:16,619 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:23:16,619 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:23:17,053 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:38:26,332 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:38:26,558 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:38:26,559 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:38:26,973 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:39:20,027 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:39:20,737 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:39:20,737 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:39:21,140 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:39:28,237 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 17:39:28,237 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 17:39:28,246 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:39:28,670 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:39:28,670 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:39:29,071 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:39:29,087 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 17:39:29,091 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 17:39:29,091 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 17:39:29,091 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 17:39:29,721 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 17:39:30,290 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 17:39:30,826 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 17:39:31,455 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 17:39:32,111 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 17:39:32,111 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:39:32,516 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:39:32,516 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:39:32,987 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:39:32,988 | INFO | app | Loading existing vector store from data\gold\KPN-news-articles
+2026-03-28 17:42:55,085 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:42:55,810 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:42:55,810 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:42:56,276 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:43:02,811 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 17:43:02,811 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 17:43:02,811 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:43:03,262 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:43:03,262 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:43:03,686 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:43:03,686 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 17:43:03,690 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 17:43:03,692 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 17:43:03,693 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 17:43:04,197 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 17:43:04,691 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 17:43:05,164 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 17:43:05,622 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 17:43:06,062 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 17:43:06,076 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:43:06,525 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:43:06,525 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:43:06,938 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:43:06,943 | INFO | app | Loading existing vector store from data\gold\KPN-news-articles
+2026-03-28 17:45:00,763 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:45:01,588 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:45:01,589 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:45:02,089 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:45:14,269 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 17:45:14,269 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 17:45:14,269 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:45:14,738 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:45:14,738 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:45:15,157 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:45:15,157 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 17:45:15,157 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 17:45:15,157 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 17:45:15,157 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 17:45:15,709 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 17:45:16,234 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 17:45:16,752 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 17:45:17,325 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 17:45:17,830 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 17:45:17,830 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:45:18,236 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:45:18,236 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:45:18,658 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:45:18,658 | INFO | app | Loading existing vector store from data\gold\KPN-news-articles
+2026-03-28 17:46:34,436 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:46:34,862 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:46:34,862 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:46:35,283 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:50:40,714 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:50:41,186 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:50:41,188 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:50:41,705 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:51:59,681 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:52:00,285 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:52:00,285 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:52:00,689 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:52:03,515 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 17:52:03,515 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 17:52:03,532 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:52:03,949 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:52:03,949 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:52:04,366 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:52:04,366 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 17:52:04,366 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 17:52:04,377 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 17:52:04,377 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 17:52:04,883 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 17:52:05,316 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 17:52:05,772 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 17:52:06,249 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 17:52:06,766 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 17:52:06,766 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 17:52:07,168 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 17:52:07,168 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 17:52:07,583 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 17:52:07,584 | INFO | app | Loading existing vector store from data\gold\KPN-news-articles
+2026-03-28 18:04:55,107 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 18:04:55,823 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 18:04:55,826 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 18:04:56,228 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 18:04:59,483 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 18:04:59,483 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 18:04:59,483 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 18:04:59,948 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 18:04:59,948 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 18:05:00,395 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 18:05:00,395 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 18:05:00,412 | INFO | src.utils.web_scraper | Loading URLs from c:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 18:05:00,412 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 18:05:00,412 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 18:05:00,985 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 18:05:01,449 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 18:05:02,033 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 18:05:02,574 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 18:05:03,216 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 18:05:03,217 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 18:05:03,643 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 18:05:03,644 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 18:05:04,148 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 18:05:04,149 | INFO | app | Loading existing vector store from data\gold\KPN-news-articles
+2026-03-28 18:15:18,104 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 18:15:18,695 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 18:15:18,695 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 18:15:19,089 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 18:15:22,145 | INFO | src.utils.pdf_parser | Checking SILVER for: KPN-integrated-annual-report-2024_2025.jsonl
+2026-03-28 18:15:22,145 | INFO | src.utils.pdf_parser | JSONL found in SILVER. Loading documents
+2026-03-28 18:15:22,154 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 18:15:22,537 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 18:15:22,537 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 18:15:22,935 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 18:15:22,935 | INFO | app | Loading existing vector store from data\gold\KPN-integrated-annual-report-2024_2025
+2026-03-28 18:15:22,939 | INFO | src.utils.web_scraper | Loading URLs from C:\Akash\Career\tests\kpn\data\bronze\urls.txt
+2026-03-28 18:15:22,939 | INFO | src.utils.web_scraper | Loaded 5 URLs
+2026-03-28 18:15:22,939 | INFO | src.utils.web_scraper | [0] Processing URL: https://www.overons.kpn/nieuws/en/kpn-cla-2026-2027-new-arrangement-for-reservists/
+2026-03-28 18:15:23,579 | INFO | src.utils.web_scraper | [1] Processing URL: https://www.overons.kpn/nieuws/en/kpn-best-mobile-network-in-the-netherlands-for-the-fifth-time-with-the-highest-score-worldwide/
+2026-03-28 18:15:24,196 | INFO | src.utils.web_scraper | [2] Processing URL: https://www.overons.kpn/nieuws/en/kpn-launches-queryable-infrastructure-kpn-campus/
+2026-03-28 18:15:24,762 | INFO | src.utils.web_scraper | [3] Processing URL: https://www.overons.kpn/nieuws/en/kpn-recognized-as-provider-with-the-best-digital-customer-experience/
+2026-03-28 18:15:25,479 | INFO | src.utils.web_scraper | [4] Processing URL: https://www.overons.kpn/nieuws/en/king-and-minister-of-economic-affairs-on-a-working-visit-to-kpn-a-look-behind-the-scenes-of-digital-resilience/
+2026-03-28 18:15:26,114 | INFO | src.utils.web_scraper | Successfully created 5 documents
+2026-03-28 18:15:26,114 | INFO | src.models.llm | Initializing AzureOpenAI client.
+2026-03-28 18:15:26,482 | INFO | src.models.llm | AzureOpenAI client initialized successfully.
+2026-03-28 18:15:26,482 | INFO | src.models.llm | Initializing AzureOpenAI Embeddings...
+2026-03-28 18:15:26,860 | INFO | src.models.llm | AzureOpenAI Embeddings initialized successfully.
+2026-03-28 18:15:26,875 | INFO | app | Loading existing vector store from data\gold\KPN-news-articles
