@@ -8,6 +8,8 @@ This project is a `Multi-Agent` retrieval system on the top of KPN's publicly av
 
 Under the hood, both agents use `AzureOpenAI` for embeddings and generation, and `FAISS` for local vector storage.
 
+🎬 **Demo Video:** [Watch here](https://drive.google.com/file/d/1QCfOHBUSbSjt8G4uwfEtL3dKc9VSFdNP/view?usp=sharing)
+
 ## What The Project Does
 
 The runtime flow is:
