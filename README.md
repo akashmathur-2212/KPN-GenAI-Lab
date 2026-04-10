@@ -1,5 +1,5 @@
 
-# KPN Multi-Agent AI System
+# Multi-Agent AI System
 
 This project is a `Multi-Agent` retrieval system on the top of KPN's publicly available data. It exposes a `FastAPI` API that accepts a user query, routes that query to an agentic system built using LangGraph with two specialized agents:
 
